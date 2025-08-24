@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  background-color: cyan;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.touch-start,
+.touch-end,
+.touch-move{
+  padding: 10px 20px;
+  background-color: tomato;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
